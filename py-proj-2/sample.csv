@@ -1,0 +1,5 @@
+size,name,price,flavor,sprinkles,topping
+mini,Chocolate Brownie,1.99,Chocolate,[],Brownie
+regular,Chocolate Brownie,3.99,Chocolate,"['Chocolate', 'Brownie Crumbs']",Brownie
+mini,Chocolate Brownie,1.99,Chocolate,[],Brownie
+regular,Chocolate Brownie,3.99,Chocolate,"['Chocolate', 'Brownie Crumbs']",Brownie

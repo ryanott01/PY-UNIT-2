@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+
+    {% for icecream in icecreams %}
+    <div class="thediv">
+    <h3>{{ icecream["name"] }}</h3>
+    <h4>Flavor: {{ icecream["flavor"] }}</h4>
+    <h4>Topping: {{ icecream["topping"] }}</h4>
+    <h4><b>Price: ${{ icecream["price"] }}</b></h4>
+    </div>
+    {% endfor %}
+<a href="{{url_for('reset_cart')}}">
+    <button>Reset Cart</button>
+</a>
+<a href="{{url_for('order_screen')}}">
+    <button>Back</button>
+</a>
+</body>
+</html>

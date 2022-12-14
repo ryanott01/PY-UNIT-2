@@ -1,0 +1,13 @@
+body {
+    position: absolute;
+    background-image: url('./photos/pexels-somben-chea-1294943.jpg');
+    background-size: cover;
+}
+img {
+    float: right;
+  }
+
+.thediv {
+    border: 2px solid black;
+
+}
